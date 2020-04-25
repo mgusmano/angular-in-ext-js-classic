@@ -1,0 +1,24 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "baseUrl": "./angular",
+    "outDir": "./dist/out-tsc",
+    "sourceMap": false,
+    "declaration": false,
+    "module": "es6",
+    "target": "es6",
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "lib": ["es2018","dom"],
+    "typeRoots": ["node_modules/@types"],
+    "noImplicitAny": false,
+    "suppressImplicitAnyIndexErrors": true,
+    "preserveSymlinks": true,
+  },
+  "exclude": ["node_modules"],
+  "include": [
+    "angular/main.ts",
+    "angular/personnelnew.component.ts"
+  ]
+}
